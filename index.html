@@ -1,14 +1,55 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Голосовой ассистент</title>
+    <title>Магазин игрушек "Умка"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Добро пожаловать!</h1>
-    <p>Общайтесь с нашим голосовым ассистентом прямо здесь:</p>
-    <elevenlabs-convai agent-id="ruNy3RC29O1UCKzjkkeI"></elevenlabs-convai>
-    <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+    <header>
+        <h1>Магазин игрушек "Умка"</h1>
+        <p>Детский рай в Тимашевске</p>
+    </header>
+    <div class="container">
+        <h2>Акции и скидки 🎉</h2>
+        <ul>
+            <li>Скидка 5% на покупки от 1000 рублей.</li>
+            <li>Скидка 10% для именинников.</li>
+        </ul>
+        <h2>Каталог товаров</h2>
+        <p>Перейдите в раздел <a href="catalog.html">каталога</a>, чтобы посмотреть наши товары.</p>
+    </div>
+    <footer>
+        <p>Адрес: Красная ул., 106Д, Тимашевск | Телефон: +7 918 15-44-720</p>
+    </footer>
 </body>
 </html>
